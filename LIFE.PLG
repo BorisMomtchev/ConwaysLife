@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Life - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x402 /fo"Release/resource.res" /d "NDEBUG" /d "_AFXDLL" "D:\Bob\c++\Life\resource.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP225.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Life.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Bob\c++\Life\gendlg.cpp"
+"D:\Bob\c++\Life\lifeapp.cpp"
+"D:\Bob\c++\Life\mainfrm.cpp"
+"D:\Bob\c++\Life\spddlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP225.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Life.pdb" /machine:I386 /out:"Release/Life.exe"  ".\Release\gendlg.obj" ".\Release\lifeapp.obj" ".\Release\mainfrm.obj" ".\Release\spddlg.obj" ".\Release\resource.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+gendlg.cpp
+lifeapp.cpp
+mainfrm.cpp
+spddlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Life.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Life - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x402 /fo"Debug/resource.res" /d "_DEBUG" /d "_AFXDLL" "D:\Bob\c++\Life\resource.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP227.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Life.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Bob\c++\Life\gendlg.cpp"
+"D:\Bob\c++\Life\lifeapp.cpp"
+"D:\Bob\c++\Life\mainfrm.cpp"
+"D:\Bob\c++\Life\spddlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP227.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Life.pdb" /debug /machine:I386 /out:"Debug/Life.exe" /pdbtype:sept  ".\Debug\gendlg.obj" ".\Debug\lifeapp.obj" ".\Debug\mainfrm.obj" ".\Debug\spddlg.obj" ".\Debug\resource.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+gendlg.cpp
+lifeapp.cpp
+mainfrm.cpp
+spddlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Life.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
